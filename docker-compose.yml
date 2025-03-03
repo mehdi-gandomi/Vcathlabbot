@@ -4,8 +4,8 @@ services:
     container_name: chatgptbot
     image: yym68686/chatgpt:latest
     environment:
-      - BOT_TOKEN=
-      - API=
+      - BOT_TOKEN=7616649489:AAGY1ZwZLGdlDWBgCzvffNYLA5HOlP66twE
+      - API=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
       - API_URL=
     volumes:
       - ./user_configs:/home/user_configs
