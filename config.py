@@ -131,7 +131,7 @@ def save_user_config(user_id, config):
 
 def load_user_config(user_id):
     filename = os.path.join(CONFIG_DIR, f'{user_id}.json')
-
+    
     if not os.path.exists(filename):
         return {}
 
